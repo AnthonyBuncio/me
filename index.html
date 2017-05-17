@@ -547,16 +547,22 @@
 						</ul>
 						
 					</div>
+<!-- 
+					<form method="POST" action="http://formspree.io/anthonyb.ft@gmail.com">
+					  <input type="email" name="email" placeholder="Your email">
+					  <textarea name="message" placeholder="Your message"></textarea>
+					  <button type="submit">Send</button>
+					</form> -->
 				  
-					<form id="contact-form" class="col-sm-7 scrollimation fade-left" action="contact.php" method="post" novalidate>
+					<form id="contact-form" class="col-sm-7 scrollimation fade-left" action="http://formspree.io/anthonyb.ft@gmail.com" method="post" novalidate>
 						
-						<div class="form-group">
+ 						<div class="form-group">
 						  <label class="control-label" for="contact-name">Name</label>
 						  <div class="controls">
 							<i class="fa fa-user"></i>
-							<input id="contact-name" name="contactName" placeholder="My name is..." class="form-control input-lg requiredField" type="text" data-error-empty="Please enter your name">
+							<input id="contact-name" name="name" placeholder="My name is..." class="form-control input-lg requiredField" type="text" data-error-empty="Please enter your name">
 						  </div>
-						</div><!-- End name input -->
+						</div> <!-- End name input -->
 						
 						<div class="form-group">
 						  <label class="control-label" for="contact-mail">Email</label>
@@ -570,7 +576,7 @@
 						  <label class="control-label" for="contact-message">Message</label>
 							<div class="controls">
 								<i class="fa fa-comment"></i>
-								<textarea id="contact-message" name="comments"  placeholder="I wanna talk about..." class="form-control input-lg requiredField" rows="5" data-error-empty="Please enter your message"></textarea>
+								<textarea id="contact-message" name="message"  placeholder="I wanna talk about..." class="form-control input-lg requiredField" rows="5" data-error-empty="Please enter your message"></textarea>
 							</div>
 						</div><!-- End textarea -->
 						
