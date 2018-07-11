@@ -173,6 +173,9 @@ $(document).ready(function() {
 	/*============================================
 	Twitter Functions
 	==============================================*/
+	
+	/*
+
 	var tweetsLength = $('#twitter-slider').data('tweets-length'),
 		widgetID = $('#twitter-slider').data('widget-id');
 	
@@ -219,7 +222,10 @@ $(document).ready(function() {
 			pauseOnHover: true,
 			smoothHeight: false
 		});
-	}
+	} 
+
+	*/
+
 	/*============================================
 	Resize Functions
 	==============================================*/
